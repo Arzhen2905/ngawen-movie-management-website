@@ -1,0 +1,35 @@
+.navbar-menu {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-custom {
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0);
+  height: fit-content;
+  margin-top: 2vh;
+  width: 100%;
+  z-index: 5;
+}
+
+.nav-item-custom {
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-item-custom:hover {
+  background-color: #6666;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.nav-link-custom {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #ffff;
+}
+
+.nav-item-custom a.nav-link-custom:hover {
+  color: #ffff !important;
+}
